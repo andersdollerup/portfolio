@@ -1,39 +1,20 @@
-/****************************  Menu  ****************************/
-/* https://docs.google.com/presentation/d/1DNlpsLfbJ6lSTtQQTP1wV0GyHVQQk5ep_k3P_h4XlAI/edit#slide=id.g424fccf4ee_0_0 */
-
-/* unvisited link */
-header nav a:link {
-    color: #f2e4d7;
+html, body {
+    width: 100%;
+    height: 100%;
 }
 
-/* visited link */
-header nav a:visited {
-    color: #f2e4d7;
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
-/* mouse over link */
-header nav a:hover {
-    color: #ff3e2c;
+main {
+    flex-grow: 1;
 }
 
-/* selected link */
-header nav a:active {
-    color: #f2e4d7;
+header, main, footer {
+    flex-shrink: 0;
+    outline: 2px solid red;
 }
-
-header {}
-
-header nav {}
-
-header nav a {}
-
-@media only screen and (min-width:???px) {
-
-    header nav {}
-
-    header nav a {}
-
-    header nav a:last-child {}
-}
-
-/****************************  Menu slut  ****************************/
